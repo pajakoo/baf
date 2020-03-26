@@ -1,0 +1,12 @@
+{
+  "name": "projects",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "clients/*"
+  ],
+  "devDependencies": {
+    "lerna": "^3.20.2"
+  }
+}

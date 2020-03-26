@@ -1,0 +1,8 @@
+{
+  "name": "@baf/step-stone",
+  "version": "1.0.0",
+  "main": "main.js",
+  "dependencies": {
+    "@baf/case-mgmnt":"1.0.0"
+  }
+}
