@@ -2,11 +2,16 @@
   "name": "projects",
   "version": "1.0.0",
   "private": true,
-  "workspaces": [
+  "workspaces": [le
     "packages/*",
-    "clients/*"
+    "clients/**/*"
   ],
   "devDependencies": {
     "lerna": "^3.20.2"
+  },
+  "scripts": {
+    "start": "lerna run start",
+    "new-version": "lerna version --conventional-commits --yes",
+    "diff": "lerna diff"
   }
 }
