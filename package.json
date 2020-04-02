@@ -2,7 +2,7 @@
   "name": "projects",
   "version": "1.0.0",
   "private": true,
-  "workspaces": [lehjgjhg
+  "workspaces": [
     "packages/*",
     "clients/**/*"
   ],
