@@ -7,11 +7,14 @@
     "clients/**/*"
   ],
   "devDependencies": {
-    "lerna": "^3.20.2"
+    "lerna": "^3.20.2",
+    "npm-run-all": "^4.1.5"
   },
   "scripts": {
     "start": "lerna run start",
+    "test": "lerna run test",
     "new-version": "lerna version --conventional-commits --yes",
-    "diff": "lerna diff"
+    "diff": "lerna diff",
+    "dev": "concurrently \"cd packages/case-mgmnt && yarn start\" \"cd packages/baf-core && node main.js\" \" cd clients/client-one && yarn start\" \" cd clients/step-stone && yarn start\" \" cd clients/step-stone/src/components-store && yarn start\""
   }
 }
