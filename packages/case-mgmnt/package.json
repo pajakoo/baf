@@ -1,7 +1,8 @@
 {
   "name": "@baf/case-mgmnt",
   "version": "1.0.1",
-  "main": "main.js",
+  "main": "dist/index.js.js",
+  "module": "dist/index.es.js",
   "scripts": {
     "build": "rollup -c",
     "start": "rollup -c -w"
